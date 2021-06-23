@@ -1,6 +1,10 @@
 # mobilize-mapper
 View Mobilize Events on a Map!
 
+## Using the App
+
+Simple for now! Navigate to `html/index.html` in this project.
+
 ## Plan
 
 * Use React without JSX so we don't need a build pipline for now (see https://reactjs.org/docs/react-without-jsx.html)

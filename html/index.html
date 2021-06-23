@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mobilize Mapper!</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- for production, would use:
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    -->
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="app.js"></script>
+    <script>
+        // IIFE to avoid polluting top-level namespace
+        (function() {
+            // reference the div above
+            const rootElem = document.getElementById("root");
+
+            // instantiate the React app
+            const app = React.createElement(MobilizeMapperApp);
+
+            // have React take over the root div and render the app
+            ReactDOM.render(app, rootElem);
+        })();
+    </script>
+</body>
+</html>
