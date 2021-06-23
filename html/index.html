@@ -19,8 +19,12 @@
             // reference the div above
             const rootElem = document.getElementById("root");
 
+            // get search params for pagination purposes
+            const urlSearchParams = new URLSearchParams(window.location.search);
+            const params = Object.fromEntries(urlSearchParams.entries());
+
             // instantiate the React app
-            const app = React.createElement(MobilizeMapperApp);
+            const app = React.createElement(MobilizeMapperApp, {organizationId: 1});
 
             // have React take over the root div and render the app
             ReactDOM.render(app, rootElem);

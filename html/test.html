@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test Suite</title>
+<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.16.0.css">
+</head>
+<body>
+    <!-- load in the QUnit test framework -->
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://code.jquery.com/qunit/qunit-2.16.0.js"></script>
+    <!-- bring in our code under test -->
+    <script src="app.js"></script>
+    <!-- run our tests -->
+    <script>
+        (function() {
+            runMobilizeMapperAppTests();
+        })();
+    </script>
+</body>
+</html>
