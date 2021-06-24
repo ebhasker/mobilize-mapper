@@ -5,6 +5,10 @@ View Mobilize Events on a Map!
 
 Simple for now! Navigate to `html/index.html` in this project.
 
+## Running the Unit Tests
+
+Simple for now! Navigate to `html/test.html` in this project.
+
 ## Plan
 
 * Use React without JSX so we don't need a build pipline for now (see https://reactjs.org/docs/react-without-jsx.html)
@@ -20,3 +24,4 @@ Simple for now! Navigate to `html/index.html` in this project.
 * Using React Hooks to keep effects nice and modular
 * Using qunit (see https://qunitjs.com/) since we're not using nodejs
 * Defer server-side until we can't live without it, see how far we can get without it! :)
+* Using Bulma (https://bulma.io/) for an easy-to-add CSS library
