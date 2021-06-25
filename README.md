@@ -25,3 +25,13 @@ Simple for now! Navigate to `html/test.html` in this project.
 * Using qunit (see https://qunitjs.com/) since we're not using nodejs
 * Defer server-side until we can't live without it, see how far we can get without it! :)
 * Using Bulma (https://bulma.io/) for an easy-to-add CSS library
+
+## Future work
+Since I didn't get to work on this for as long as I would have liked, here are some future work items:
+* Clicking on the location part of the card should center and bring up the relevant popup on the map
+* Filters, obviously, starting with a location search bar
+* When just viewing the full list of events, center and locate the map around those events
+* Use the Location/History Web APIs to update the query string to match filters that are set (such as location, etc.) so that a user can bookmark a search link
+* Use the cursor versions of prev/next provided in the API results, instead of ?page=X
+* Bring in a Python webserver and add the React toolchain so as to implement user sessions
+* More unit tests!
