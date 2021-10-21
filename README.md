@@ -5,6 +5,8 @@ View Mobilize Events on a Map!
 
 Simple for now! Navigate to `html/index.html` in this project.
 
+You can also check out the Github-hosted demo here: https://ebhasker.github.io/mobilize-mapper/html/
+
 ## Running the Unit Tests
 
 Simple for now! Navigate to `html/test.html` in this project.
